@@ -58,7 +58,7 @@ app.use(
   })
 );
 
-// app.use(cors(corsOptions));
+app.use(cors(corsOptions));
 
 //use public folder for static assets
 app.use(express.static("public"));
