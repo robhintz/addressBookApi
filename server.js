@@ -38,7 +38,7 @@ db.on("open", () => {});
 
 const whitelist = [
   "http://localhost:3000",
-  "https://addressbookreact.herokuapp.com/",
+  "https://addressbookreact.herokuapp.com",
 ];
 const corsOptions = {
   origin: function (origin, callback) {
