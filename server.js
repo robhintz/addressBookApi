@@ -38,7 +38,7 @@ db.on("open", () => {});
 
 const whitelist = [
   "http://localhost:3000",
-  "ENTER YOUR HEROKU FRONT END ADDRESS HERE!!!!!!!!!!!!!11",
+  "https://addressbookreact.herokuapp.com/",
 ];
 const corsOptions = {
   origin: function (origin, callback) {
@@ -58,7 +58,7 @@ app.use(
   })
 );
 
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
 
 //use public folder for static assets
 app.use(express.static("public"));
